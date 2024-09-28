@@ -7,5 +7,100 @@ div li>a{
     color: black;
 }
 .blog-container{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 329;
+padding: 24px 0px 24px 0px;
+background: rgb(249, 247, 243);
+}
+.bdt-con{
+    margin-left: 1000px;
     
+}
+.bdt{
+   
+}
+.donate{
+color: rgb(17, 17, 17);
+font-size: 20px;
+font-weight: 600;
+line-height: 25px;
+
+}
+.blog{
+border-radius: 8px;
+background: rgb(180, 244 ,97);
+position: static;
+width: 110px;
+height: 49px;
+margin-right: 500px;
+}
+.donate-con{
+    
+}
+.btn-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 32px 0px;
+}
+.donation{
+padding: 16px 32px 16px 32px;
+border-radius: 8px;
+background: rgb(180, 244, 97);
+}
+.history{
+padding: 16px 32px 16px 32px;
+border-radius: 8px;
+box-sizing: border-box;
+border: 1px solid rgba(17, 17, 17, 0.3);
+}
+.obdt{
+display: flex;
+border-radius: 8px;
+background: rgba(17, 17, 17, 0.05);
+margin: 16px;
+width: 110px;
+height: 44px;
+}
+.noakhali{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.noakhali-con{
+    flex-direction: column;
+}
+.noakhali-title{
+    margin: 16px;
+}
+.noakhali-des{
+    margin: 16px;
+
+}
+.noa-in{
+box-sizing: border-box;
+    border: 1px solid rgba(17, 17, 17, 0.1);
+    border-radius: 8px;
+    background: rgb ( 255, 255, 255);
+    width: 522px;
+    height: 56px;
+    padding: 18px;
+    margin: 16px;
+}
+.donate-btn{
+border-radius: 8px;
+background: rgb(180, 244, 97);
+width: 522px;
+height: 58px;
+margin: 16px;
+}
+.feni{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
